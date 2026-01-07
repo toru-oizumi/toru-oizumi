@@ -25,9 +25,3 @@ jobs:
           plugin_languages_limit: 8
 
           plugin_lines: yes
-          
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 30
-          plugin_activity_filter: push, issue, pr, release
-          plugin_activity_visibility: all # Privateの活動もカウントに含める
