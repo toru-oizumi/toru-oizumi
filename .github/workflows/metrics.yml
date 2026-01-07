@@ -19,9 +19,12 @@ jobs:
           
           plugin_languages: yes
           plugin_languages_ignored: html, css
-          plugin_languages_details: percentage
-          plugin_languages_indepth: yes # 全リポジトリの全履歴を解析（Private反映に強力！）
+          plugin_languages_details: percentage, bytes-size
           plugin_languages_sections: most-used
+          plugin_languages_indepth: yes
           plugin_languages_limit: 8
 
           plugin_lines: yes
+          
+          plugin_repositories: yes
+          plugin_repositories_featured: toru-oizumi/slack-timeline-retro
