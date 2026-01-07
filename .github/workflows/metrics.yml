@@ -13,17 +13,21 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: toru-oizumi
           template: classic
-
-          base: header, repositories
           config_timezone: Asia/Tokyo
+          
+          base: header, repositories
           
           plugin_languages: yes
           plugin_languages_ignored: html, css
           plugin_languages_details: percentage
+          plugin_languages_indepth: yes # 全リポジトリの全履歴を解析（Private反映に強力！）
           plugin_languages_sections: most-used
           plugin_languages_limit: 8
+
+          plugin_lines: yes
           
           plugin_activity: yes
-          plugin_activity_limit: 3
+          plugin_activity_limit: 5
           plugin_activity_days: 30
           plugin_activity_filter: push, issue, pr, release
+          plugin_activity_visibility: all # Privateの活動もカウントに含める
