@@ -16,6 +16,7 @@ jobs:
           config_timezone: Asia/Tokyo
           
           base: header, repositories
+          repositories_batch: 100
           
           plugin_languages: yes
           plugin_languages_ignored: html, css
@@ -23,6 +24,8 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_indepth: yes
           plugin_languages_limit: 8
+          plugin_languages_recent_days: 0 
+          plugin_languages_recent_load: 1000
 
           plugin_lines: yes
           
