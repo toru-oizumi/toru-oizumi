@@ -1,16 +1,21 @@
 # Hi there 👋 I'm Toru Oizumi
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=toru-oizumi&show_icons=true&theme=radical&count_private=true" width="400px" valign="top">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=toru-oizumi&layout=compact&theme=radical&langs_count=8&hide=html,css" width="380px" valign="top">
+  <img src="./profile-summary-card-output/radical/0-profile-details.svg" width="800px">
+</p>
+
+<p align="center">
+  <img src="./profile-summary-card-output/radical/3-stats.svg" width="400px" valign="top">
+  <img src="./profile-summary-card-output/radical/1-repos-per-language.svg" width="400px" valign="top">
+</p>
+
+<p align="center">
+  <img src="./profile-summary-card-output/radical/2-most-commit-language.svg" width="400px" valign="top">
+  <img src="./profile-summary-card-output/radical/4-productive-time.svg" width="400px" valign="top">
 </p>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=toru-oizumi&theme=radical" width="500px">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=toru-oizumi&theme=react-dark&hide_border=true" width="780px">
 </p>
 
 ### 🛠 Tech Stack
